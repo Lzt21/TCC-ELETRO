@@ -1,0 +1,74 @@
+{
+  "lampada_led": {
+    "potencia_media": 9,
+    "potencia_std": 1,
+    "fp_medio": 0.95,
+    "reativa_media": 2,
+    "tipo": "resistiva",
+    "transiente": "instantaneo"
+  },
+  "lampada_incandescente": {
+    "potencia_media": 783.6026704372246,
+    "potencia_std": 381.1595875583123,
+    "fp_medio": 0.9898161655878899,
+    "reativa_media": 105.6435051417409,
+    "corrente_media": 6.170099767222241,
+    "relacao_pq_media": 0.13799620295653198
+  },
+  "geladeira": {
+    "potencia_media": 150,
+    "potencia_std": 30,
+    "fp_medio": 0.85,
+    "reativa_media": 45,
+    "tipo": "indutiva",
+    "transiente": "compressor_ciclico"
+  },
+  "tv_led": {
+    "potencia_media": 80,
+    "potencia_std": 10,
+    "fp_medio": 0.98,
+    "reativa_media": 8,
+    "tipo": "eletronica",
+    "transiente": "fonte_chaveada"
+  },
+  "computador": {
+    "potencia_media": 120,
+    "potencia_std": 25,
+    "fp_medio": 0.95,
+    "reativa_media": 15,
+    "tipo": "eletronica",
+    "transiente": "fonte_chaveada"
+  },
+  "microondas": {
+    "potencia_media": 1200,
+    "potencia_std": 150,
+    "fp_medio": 0.92,
+    "reativa_media": 180,
+    "tipo": "indutiva",
+    "transiente": "magnetron"
+  },
+  "ar_condicionado": {
+    "potencia_media": 1500,
+    "potencia_std": 200,
+    "fp_medio": 0.88,
+    "reativa_media": 300,
+    "tipo": "indutiva",
+    "transiente": "compressor_lento"
+  },
+  "ferro_eletrico": {
+    "potencia_media": 1200,
+    "potencia_std": 50,
+    "fp_medio": 1.0,
+    "reativa_media": 5,
+    "tipo": "resistiva",
+    "transiente": "termico"
+  },
+  "secador_cabelo": {
+    "potencia_media": 1500,
+    "potencia_std": 100,
+    "fp_medio": 0.98,
+    "reativa_media": 20,
+    "tipo": "resistiva",
+    "transiente": "ventilador+resistencia"
+  }
+}

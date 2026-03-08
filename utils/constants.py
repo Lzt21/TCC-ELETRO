@@ -1,0 +1,28 @@
+# Constantes do sistema
+
+# Configurações de calibração
+TENSAO_MIN_VALIDA = 50
+TENSAO_MAX_VALIDA = 250
+TENSAO_PADRAO = 127.0
+
+# Configurações de gráficos
+MAX_PONTOS_GRAFICO = 50
+FAIXA_TENSAO_PADRAO = 300
+FAIXA_CORRENTE_PADRAO = 2.0
+FAIXA_POTENCIA_PADRAO = 300
+
+# Mensagens de status
+STATUS_SIMULACAO = "SIMULAÇÃO"
+STATUS_REAL = "REAL"
+STATUS_CONECTADO = "CONECTADO"
+STATUS_DESCONECTADO = "DESCONECTADO"
+
+# Cores para status
+COR_SUCESSO = "#00ff88"
+COR_ALERTA = "#ffaa00"
+COR_PERIGO = "#ff4444"
+COR_PRIMARIA = "#00d4ff"
+
+# Configurações de tempo
+INTERVALO_ATUALIZACAO = 1000  # ms
+TEMPO_CALIBRACAO = 15  # segundos
